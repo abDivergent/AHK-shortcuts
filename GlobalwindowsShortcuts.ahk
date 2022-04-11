@@ -4,6 +4,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Lines preceeded by ';' are comments
+; AutoHotKeys download: https://www.autohotkey.com/
+; Key List: https://www.autohotkey.com/docs/KeyList.htm
 ; Global Commands
 ; Use if you have apps that consume the top commands
 
