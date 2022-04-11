@@ -4,6 +4,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Lines preceeded by ';' are comments
+; AutoHotKeys download: https://www.autohotkey.com/
+; Key List: https://www.autohotkey.com/docs/KeyList.htm
 
 ; CTRL + SHIFT + SPACE - keeps window on top
 ^+SPACE:: winset, Alwaysontop, ,A
