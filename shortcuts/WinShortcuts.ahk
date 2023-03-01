@@ -27,3 +27,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; "CTRL + ALT  + SPACE"  for pause
 ^!Space::Media_Play_Pause
+
+; "ALT + L" for SignOut
+!l::Run, C:\Windows\System32\tsdiscon.exe
+
+; "SHFT + CTRL + ALT +  Z" force reboot
++^!z::Shutdown, 6
+
+!z::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
